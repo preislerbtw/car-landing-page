@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "../components/layout/Header";
 import { Hero } from "../components/modules/Hero";
 import { SpecsMarquee } from "../components/modules/SpecsMarquee";
+import { BestSellers } from "../components/modules/BestSellers";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -15,7 +16,8 @@ export default function App() {
     <div className="app">
       <Header />
       <Hero onSearch={handleSearch} />
-      <SpecsMarquee />
+      <SpecsMarquee/>
+      <BestSellers />
     </div>
   );
 }

@@ -24,7 +24,7 @@ export function Hero({ onSearch }: HeroProps) {
       <form className="search-form" onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Ex: Volkswagen Golf, Honda Civic..."
+          placeholder="Ex: Honda Civic, BMW M4, Corvette c6..."
           value={query}
           onChange={(event) => setQuery(event.target.value)}
         />
