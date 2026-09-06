@@ -4,6 +4,8 @@ import { Hero } from "../components/modules/Hero";
 import { SpecsMarquee } from "../components/modules/SpecsMarquee";
 import { BestSellers } from "../components/modules/BestSellers";
 import { About } from "../components/modules/About";
+import { Footer } from "../components/layout/Footer";
+import { Newsletter } from "../components/modules/Newletter";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -20,6 +22,8 @@ export default function App() {
       <SpecsMarquee/>
       <BestSellers />
       <About/>
+      <Footer/>
+      <Newsletter/>
     </div>
   );
 }
