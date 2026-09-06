@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Header } from "../components/layout/Header";
 import { Hero } from "../components/modules/Hero";
+import { SpecsMarquee } from "../components/modules/SpecsMarquee";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -8,13 +9,13 @@ export default function App() {
   function handleSearch(query: string) {
     setSearchQuery(query);
     console.log("Buscando por:", query);
-    // aqui depois vai entrar a chamada pra API da FIPE
   }
 
   return (
     <div className="app">
       <Header />
       <Hero onSearch={handleSearch} />
+      <SpecsMarquee />
     </div>
   );
 }
