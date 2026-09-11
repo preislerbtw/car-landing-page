@@ -1,4 +1,3 @@
-import "./ResultCard.css";
 
 export function ResultCard() {
   return (

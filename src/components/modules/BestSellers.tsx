@@ -1,5 +1,5 @@
 import { bestSellers } from "../../data/bestSellers";
-import "./BestSellers.css";
+
 
 export function BestSellers() {
     return (

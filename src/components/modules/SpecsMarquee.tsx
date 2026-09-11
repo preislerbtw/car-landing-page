@@ -1,4 +1,4 @@
-import "./SpecsMarquee.css";
+
 
 const items = [
     "TABELA FIPE ATUALIZADA",

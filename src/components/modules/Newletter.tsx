@@ -1,4 +1,4 @@
-import "./Newsletter.css";
+
 
 export function Newsletter() {
   function handleSubmit(event: React.FormEvent) {

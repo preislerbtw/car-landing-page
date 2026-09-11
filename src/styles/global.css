@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0b0d;
+  --color-bg-alt: #141416;
+  --color-panel: #1c1c1f;
+  --color-line: #2a2a2e;
+  --color-text: #ededef;
+  --color-text-dim: #9a9aa2;
+  --color-accent: #ff6a3d;
+  --font-display: "Archivo Expanded", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+.hero-bg {
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(59, 130, 246, 0.3), transparent 120%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 64px 64px, 64px 64px;
+}

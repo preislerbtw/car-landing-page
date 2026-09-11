@@ -1,4 +1,3 @@
-import "./Footer.css";
 
 export function Footer(){
     return(
@@ -16,7 +15,7 @@ export function Footer(){
                     </a>
                 </div>
             </div>
-            <div className="footer-copy">© 2026/06 — Projeto de Estudo</div>
+            <div className="footer-copy">© 2026/06</div>
         </footer>
     );
 }
