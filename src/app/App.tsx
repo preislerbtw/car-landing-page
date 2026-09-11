@@ -6,6 +6,7 @@ import { BestSellers } from "../components/modules/BestSellers";
 import { About } from "../components/modules/About";
 import { Footer } from "../components/layout/Footer";
 import { Newsletter } from "../components/modules/Newletter";
+import { ResultCard } from "../components/filters/ResultCard";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -19,6 +20,7 @@ export default function App() {
     <div className="app">
       <Header />
       <Hero onSearch={handleSearch} />
+      <ResultCard/>
       <SpecsMarquee/>
       <BestSellers />
       <About/>
