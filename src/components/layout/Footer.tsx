@@ -1,21 +1,13 @@
-
-export function Footer(){
-    return(
-        <footer className="footer">
-            <div className="footer-logo">GARAGEM.</div>
-            <div className="footer-nav">
-                <div className="footer-links">
-                    <a href="#maisvendidos">Mais Vendidos</a>
-                    <a href="#busca">Buscar Carro</a>
-                    <a href="#sobre">Sobre</a>
-                </div>
-                <div className="footer-social">
-                    <a href="https://github.com/preislerbtw" target="_blank" rel="noreferrer">
-                        <i className="bx bxl-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div className="footer-copy">© 2026/06</div>
-        </footer>
-    );
+export function Footer() {
+  return (
+    <footer className="border-t border-line px-10 py-10 flex flex-wrap justify-between items-center gap-4 text-text-dim text-sm">
+      <div className="font-display font-extrabold tracking-wide text-text">GARAGEM.</div>
+      <div className="flex gap-6">
+        <a href="#mais-vendidos" className="hover:text-text">Mais Vendidos</a>
+        <a href="#busca" className="hover:text-text">Buscar Carro</a>
+        <a href="#sobre" className="hover:text-text">Sobre</a>
+      </div>
+      <div>© 2026 — Projeto de estudo</div>
+    </footer>
+  );
 }
