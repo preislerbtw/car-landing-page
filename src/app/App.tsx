@@ -7,7 +7,6 @@ import { About } from "../components/modules/About";
 import { Footer } from "../components/layout/Footer";
 import { Newsletter } from "../components/modules/Newletter";
 import { ResultCard } from "../components/filters/ResultCard";
-import { SearchBar } from "../components/filters/SearchBar";
 
 export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -25,9 +24,8 @@ export default function App() {
       <SpecsMarquee/>
       <BestSellers />
       <About/>
-      <Footer/>
       <Newsletter/>
-      <SearchBar/>
+      <Footer/>
     </div>
   );
 }
