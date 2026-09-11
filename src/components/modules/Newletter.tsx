@@ -17,9 +17,9 @@ export function Newsletter() {
           type="email"
           placeholder="seu@email.com"
           required
-          className="flex-1 bg-panel border border-line text-text px-4 py-3.5 rounded font-body text-sm focus:outline-none focus:border-accent"
+          className="flex-1 bg-panel border border-line text-text px-4 py-3.5 rounded font-body text-sm focus:outline-none focus:border-blue-500"
         />
-        <button className="bg-accent text-bg border-none px-6 py-3.5 rounded font-semibold text-sm uppercase tracking-wide cursor-pointer">
+        <button className="bg-blue-500 text-bg border-none px-6 py-3.5 rounded font-semibold text-sm uppercase tracking-wide cursor-pointer">
           Inscrever
         </button>
       </form>
