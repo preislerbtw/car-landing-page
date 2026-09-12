@@ -8,20 +8,20 @@ export interface BestSeller {
 export const bestSellers: BestSeller[] = [
   {
     id: "1",
-    name: "Fiat Strada",
-    category: "Picape Compacta",
-    priceFrom: "R$ 98.990",
+    name: "Nissan Silvia S15",
+    category: "JDM",
+    priceFrom: "R$ 189.990",
   },
   {
     id: "2",
-    name: "Chevrolet Onix",
-    category: "Hatch",
-    priceFrom: "R$ 84.990",
+    name: "Chevrolet Corvette C6",
+    category: "Esportivo",
+    priceFrom: "R$ 299.990",
   },
   {
     id: "3",
-    name: "Hyundai HB20",
-    category: "Hatch",
-    priceFrom: "R$ 79.990",
+    name: "Nissan Skyline R34",
+    category: "JDM",
+    priceFrom: "R$ 899.990",
   },
 ];
