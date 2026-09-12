@@ -13,7 +13,7 @@ export function Hero({ onSearch }: HeroProps) {
   }
 
   return (
-    <section className="hero-bg min-h-[60vh] flex flex-col justify-center items-start px-10 pt-32 pb-10">
+    <section className="hero-bg flex flex-col justify-center items-start px-10 pt-32 pb-20">
       <div className="max-w-[720px] mx-auto text-left">
         <div className="font-mono text-xs text-blue-500 tracking-widest uppercase mb-5">
           Dados reais da tabela FIPE
@@ -29,7 +29,7 @@ export function Hero({ onSearch }: HeroProps) {
         <form className="flex gap-2.5 w-full max-w-[480px]" onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Ex: Volkswagen Golf, Honda Civic..."
+            placeholder="Ex: BWM M4, Honda Civic, Corvette C6..."
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             className="flex-1 bg-panel border border-line text-text px-4 py-3.5 rounded font-body text-sm focus:outline-none focus:border-blue-500"

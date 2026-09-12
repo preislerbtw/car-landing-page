@@ -7,7 +7,7 @@ export function Footer() {
         <a href="#busca" className="hover:text-text">Buscar Carro</a>
         <a href="#sobre" className="hover:text-text">Sobre</a>
       </div>
-      <div>© 2026 — Projeto de estudo</div>
+      <div>© 2026 - Jorge Preisler</div>
     </footer>
   );
 }
