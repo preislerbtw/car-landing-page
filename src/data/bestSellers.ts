@@ -14,9 +14,9 @@ export const bestSellers: BestSeller[] = [
   },
   {
     id: "2",
-    name: "Chevrolet Corvette C6",
+    name: "Chevrolet Corvette C7 Z06",
     category: "Esportivo",
-    priceFrom: "R$ 299.990",
+    priceFrom: "R$ 500.990",
   },
   {
     id: "3",
